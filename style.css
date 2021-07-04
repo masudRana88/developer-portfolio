@@ -7,7 +7,10 @@ body{
     margin: 0;
 }
 /* -----------------Top banner--------------- */
-section{
+.color-text{
+    color: orangered;
+}
+.flx-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -36,11 +39,38 @@ section{
 }
 
 /* ------------------Dream sectiob-------------------- */
-.dream h2{
+.dream h2 , .experience-area h1{
    font-size: 40px;
 }
 .dream{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+/* ----------------------experience------------------------ */
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-items{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+#experience-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(#ff3300, #ff8566) 1;
+    
+}
+#experience-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(#1a1aff, #8080ff) 1;
+}
+/* ----------------------footer------------------------ */
+footer p{
+    text-align: center;
 }
