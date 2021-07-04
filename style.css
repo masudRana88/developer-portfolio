@@ -6,12 +6,14 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+/* -----------------Top banner--------------- */
 section{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 100px;
 }
 .top-banner{
-    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width{
     width: 50%;
@@ -24,11 +26,21 @@ section{
 .half-width h1{
     font-size: 50px;
 }
-.half-width a {
+.a-btn{
     text-decoration: none;
     color: black;
     font-weight: 700;
     padding: 10px 40px;
     background-image:linear-gradient(to right, #ffdb4d , #ff6600); 
     border-radius: 5px;
+}
+
+/* ------------------Dream sectiob-------------------- */
+.dream h2{
+   font-size: 40px;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
